@@ -30,6 +30,12 @@ cd ios
 pod install
 ```
 
+Rename your app and bundle
+
+```bash
+npx react-native-rename@latest "new_name" -b "bundle_identifier"
+```
+
 ## Step 2: Start your Application
 
 Let Metro Bundler run in its _own_ terminal. Open a _new_ terminal from the _root_ of your React
